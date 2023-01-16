@@ -18,7 +18,7 @@ public class chatLuminus {
     private void echo() {
         Scanner sc = new Scanner(System.in);
         while(true) {
-            String input = sc.next();
+            String input = sc.nextLine();
             if(input.equals("bye")) {
                 System.out.println("Bye. Hope to see you again soon!");
                 return;
